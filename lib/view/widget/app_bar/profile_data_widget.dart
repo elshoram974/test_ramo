@@ -5,7 +5,7 @@ import '../../../core/utils/config/locale/generated/l10n.dart';
 import '../../../core/utils/constants/app_constants.dart';
 import '../../../core/utils/constants/app_images.dart';
 import '../../../core/utils/constants/text_style.dart';
-import '../drawer_button_widget.dart';
+import 'drawer_button_widget.dart';
 
 class ProfileDataWidget extends StatelessWidget {
   const ProfileDataWidget({super.key});

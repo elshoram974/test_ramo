@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../core/utils/constants/app_constants.dart';
-import '../../core/utils/constants/app_images.dart';
+import '../../../core/utils/constants/app_constants.dart';
+import '../../../core/utils/constants/app_images.dart';
 
 class DrawerButtonWidget extends StatelessWidget {
   const DrawerButtonWidget({super.key});
@@ -13,8 +13,8 @@ class DrawerButtonWidget extends StatelessWidget {
       borderRadius: BorderRadius.circular(AppConst.borderRadius),
       child: Image.asset(
         AppImages.drawerIcon,
-        height: 40,
-        width: 40,
+        height: 20,
+        width: 20,
       ),
     );
   }
