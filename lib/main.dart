@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'core/utils/config/locale/generated/l10n.dart';
+import 'core/utils/constants/app_colors.dart';
 import 'view/screen/home_screen.dart';
 
 void main() {
@@ -24,7 +25,13 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xff1FACD1)),
+        appBarTheme: AppBarTheme(
+          backgroundColor: AppColors.primary,
+        ),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: AppColors.primary,
+          primary: AppColors.primary,
+        ),
         useMaterial3: true,
       ),
       home: const HomeScreen(),
