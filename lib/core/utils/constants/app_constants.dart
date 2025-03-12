@@ -10,5 +10,4 @@ abstract final class AppConst {
   static const int maxPhone = 500;
   static const int maxTablet = 900;
 
-  static const Duration duration = Duration(seconds: 2);
 }
